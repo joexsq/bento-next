@@ -11,12 +11,12 @@ import { Config } from './src/types/config';
 // Use an editor with Typescript support to get autocomplete and validity checking!
 export const config: Config = {
   // General
-  name: 'John',
+  name: 'idea',
   openInNewTab: true,
   title: 'Bento',
 
   // Clock
-  twelveHourFormat: false,
+  twelveHourFormat: true,
   flashSeparator: false,
 
   // Font Family
@@ -61,7 +61,7 @@ export const config: Config = {
   greetingNight: 'Sweet dreams,',
 
   // Layout
-  layout: 'bento', // 'bento', 'lists', 'buttons'
+  layout: 'buttons', // 'bento', 'lists', 'buttons'
 
   // Weather
   weatherKey: import.meta.env.VITE_API_KEY, // Set your OpenWeatherMap key in .env - Move the included .env.example to .env
